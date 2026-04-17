@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/podcrestreetwear_SITE/',
-publicPath: '/podcrestreetwear_SITE/',
+  base: './',
 build: {
   outDir: 'docs',
   assetsDir: 'assets'
