@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/podcrestreetwear_SITE/',
+publicPath: '/podcrestreetwear_SITE/',
+build: {
+  outDir: 'docs',
+  assetsDir: 'assets'
+}
 })

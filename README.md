@@ -1,16 +1,25 @@
-# React + Vite
+# Podcre Streetwear
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site desenvolvido com React + Vite para a marca Podcre Streetwear.
 
-Currently, two official plugins are available:
+## Acessar o site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O site está disponível no GitHub Pages:
 
-## React Compiler
+[https://mttmmm.github.io/podcrestreetwear_SITE/](https://mttmmm.github.io/podcrestreetwear_SITE/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Como funciona
 
-## Expanding the ESLint configuration
+O site está configurado para usar o GitHub Pages com a branch `main` e a pasta `docs`. O conteúdo estático é gerado pelo Vite e servido diretamente pelo GitHub Pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estrutura do projeto
+
+- `src/` - Código fonte do React
+- `docs/` - Arquivos estáticos para o GitHub Pages
+- `package.json` - Dependências e scripts do projeto
+
+## Scripts disponíveis
+
+- `npm run dev` - Iniciar servidor de desenvolvimento
+- `npm run build` - Gerar build de produção
+- `npm run preview` - Visualizar build de produção localmente
